@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script type="text/javascript" src="js/createJS/easeljs-0.7.1.min.js"></script>
+   <script type="text/javascript" src="js/createJS/preloadjs-0.4.1.min.js"></script>
+   <script type="text/javascript" src="js/createJS/utils/Proxy.js"></script>
+   <script type="text/javascript" src="js/createJS/utils/IndexOf.js"></script>
+   <script type="text/javascript" src="js/createJS/events/Event.js"></script>
+   <script type="text/javascript" src="js/createJS/events/EventDispatcher.js"></script>
+   <script type="text/javascript" src="js/createJS/soundjs/Sound.js"></script>
+   <script type="text/javascript" src="js/createJS/soundjs/WebAudioPlugin.js"></script>
+   <script type="text/javascript" src="js/createJS/soundjs/HTMLAudioPlugin.js"></script>
+   <script src="js/index.js"></script>
+   <style type="text/css">
+   .start_clock {
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-font-smoothing: antialiased;
+color: rgb(21, 125, 251);
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 26px;
+font-weight: 300;
+height: 50px;
+line-height: 50px;
+margin: 0;
+padding: 0;
+text-align: center;
+text-indent: 0;
+width: 100%;
+background-color: rgb(248, 248, 248);
+background-color: rgba(248, 248, 248, 0.901961);
+border-bottom: 1px solid rgb(200, 199, 204);
+   }
+   </style>
+</head>
+<body onLoad="init();">
+   <canvas id="clockCanvas" width="500" height="500">
+   </canvas>
+   <div class="start_clock">Start the clock</div>
+</body>
+</html>
